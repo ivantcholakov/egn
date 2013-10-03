@@ -5,11 +5,13 @@
  * Ivan Tcholakov <ivantcholakov@gmail.com>, May, 2013.
  * This piece of code is basen upon the following origin: http://georgi.unixsol.org/programs/egn.php
  * The license stays the same.
+ * Code repository: https://github.com/ivantcholakov/egn
  *
  * Валидация и генериране на ЕГН
  * Иван Чолаков <ivantcholakov@gmail.com>, май 2013.
  * Кодът е базиран на следния първоизточник: http://georgi.unixsol.org/programs/egn.php
  * Лицензът остава същият.
+ * Хранилище на кода: https://github.com/ivantcholakov/egn
  */
 
 # Информация, проверка и генератор за единни граждански номера (ЕГН)
