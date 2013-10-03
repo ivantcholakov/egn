@@ -265,7 +265,7 @@ class Egn {
     /* Generate EGN. When parameter is 0 || false it is randomized */
     public static function generate($day = 0, $mon = 0, $year = 0, $sex = 0, $region = false) {
 
-        $EGN_REGIONS_FIRST_NUM = self::$EGN_REGIONS_FIRST_NUM();
+        $EGN_REGIONS_FIRST_NUM = self::EGN_REGIONS_FIRST_NUM();
 
         $day = $day  > 0 ? min($day, 31) : ($day < 0 ? 0 : $day);
         $mon = $mon  > 0 ? min($mon, 12) : ($mon < 0 ? 0 : $mon);
