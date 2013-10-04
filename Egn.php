@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed.');
+<?php
 
 /**
  * Validation and generation of EGN (personal identification numbers for Bulgarian citizens)
