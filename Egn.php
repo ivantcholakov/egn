@@ -137,6 +137,12 @@ class Egn {
 
         $egn = (string) $egn;
 
+        // Added by Ivan Tcholakov, 25-JUN-2017.
+        if (!ctype_digit($egn)) {
+            return false;
+        }
+        //
+
         if (strlen($egn) != 10) {
             return false;
         }
