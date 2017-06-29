@@ -337,7 +337,7 @@ class Egn {
 
     public static function get_gender($string) {
 
-        if (self::is_forigner($string)) {
+        if (self::is_foreigner($string)) {
             return null;
         }
 
@@ -352,7 +352,7 @@ class Egn {
 
     public static function get_birthday($string) {
 
-        if (self::is_forigner($string)) {
+        if (self::is_foreigner($string)) {
             return null;
         }
 
