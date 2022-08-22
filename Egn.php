@@ -352,10 +352,6 @@ class Egn {
 
     public static function get_birthday($string) {
 
-        if (self::is_foreigner($string)) {
-            return null;
-        }
-
         if (!self::valid($string)) {
             return null;
         }
@@ -369,6 +365,10 @@ class Egn {
     public static function is_foreigner($string) {
 
         if (!ctype_digit($string)) {
+            return false;
+        }
+
+        if (self::valid($string)) {
             return false;
         }
 
