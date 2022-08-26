@@ -187,6 +187,8 @@ class Egn {
     /* Return array with EGN info */
     public static function parse($egn) {
 
+        $egn = (string) $egn;
+
         if (!self::valid($egn)) {
             return false;
         }
@@ -363,6 +365,8 @@ class Egn {
 
     /* Is it a personal number of foreigner? A simple check. */
     public static function is_foreigner($string) {
+
+        $string = (string) $string;
 
         if (!ctype_digit($string)) {
             return false;
